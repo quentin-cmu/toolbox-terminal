@@ -22,3 +22,7 @@ Steps to Run the application:
    3) Jupyter Notebook,
    4) SonarQube and SonarScanner.
 3. By clicking on the specific button, you will be redirected to the corresponding functionality.
+
+Link to the Video:
+1) Check folder "OtherResources" for the two files
+2) Google Drive: https://drive.google.com/drive/folders/1gdE4hbWPyh2ihmVBHFwLqSnPv8vcD9zL?usp=sharing
