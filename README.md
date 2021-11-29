@@ -10,11 +10,15 @@ DockerImages URL:
    https://hub.docker.com/r/jupyter/datascience-notebook
 4. SonarQube and SonarScanner
    https://hub.docker.com/_/sonarqube
-5. Java Terminal
+5. Java application.Terminal
    https://hub.docker.com/r/quentincmu/toolbox-terminal
 
-Steps to Run the Terminal on GCP:
+Steps to Run the application:
 
-kubectl create deployment toolbox-terminal --image=gcr.io/cloudproject-14848/quentincmu/toolbox-terminal:latest
-kubectl scale deployment toolbox-terminal --replicas=2
-kubectl expose deployment toolbox-terminal --name=toolbox-terminal-service --type=LoadBalancer --port 80 --target-port 8080
+1. In web browser, visit http://34.94.168.151 and the webpage will be redirected to the homepage.
+2. In the Homepage, there are buttons for the four applications, which are 
+   1) Apache Hadoop, 
+   2) Apache Spark,
+   3) Jupyter Notebook,
+   4) SonarQube and SonarScanner.
+3. By clicking on the specific button, you will be redirected to the corresponding functionality.
